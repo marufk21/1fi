@@ -1,0 +1,277 @@
+{
+  "products": [
+    {
+      "id": "google-pixel-9-pro",
+      "name": "Google Pixel 9 Pro",
+      "brand": "Google",
+      "tag": "NEW",
+      "description": "Pure Android experience with Google AI and exceptional camera",
+      "price": 89900,
+      "originalPrice": 99900,
+      "savings": 10000,
+      "image": "https://rukminim2.flixcart.com/image/406/406/xif0q/mobile/0/m/t/-original-imahggevg3kpzazr.jpeg?q=70&crop=false",
+
+      "colors": [
+        {
+          "id": "obsidian",
+          "name": "Obsidian",
+          "hexCode": "#1a1a1a"
+        },
+        {
+          "id": "porcelain",
+          "name": "Porcelain",
+          "hexCode": "#f5f5f5"
+        },
+        {
+          "id": "hazel",
+          "name": "Hazel",
+          "hexCode": "#8b7355"
+        }
+      ],
+      "storageOptions": [
+        {
+          "id": "256gb",
+          "size": "256GB",
+          "priceAdjustment": 0
+        },
+        {
+          "id": "512gb",
+          "size": "512GB",
+          "priceAdjustment": 10000
+        }
+      ],
+      "emiPlans": [
+        {
+          "durationMonths": 3,
+          "monthlyAmount": 29967,
+          "cashback": 4000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 6,
+          "monthlyAmount": 14983,
+          "cashback": 4000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 12,
+          "monthlyAmount": 7492,
+          "cashback": 4000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 24,
+          "monthlyAmount": 3746,
+          "cashback": 4000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 36,
+          "monthlyAmount": 2865,
+          "cashback": 4000,
+          "interestRate": 10.5
+        },
+        {
+          "durationMonths": 48,
+          "monthlyAmount": 2258,
+          "cashback": 4000,
+          "interestRate": 10.5
+        },
+        {
+          "durationMonths": 60,
+          "monthlyAmount": 1894,
+          "cashback": 4000,
+          "interestRate": 10.5
+        }
+      ]
+    },
+    {
+      "id": "iphone-17-pro",
+      "name": "iPhone 17 Pro",
+      "brand": "Apple",
+      "tag": "NEW",
+      "description": "The most advanced iPhone ever with A19 Pro chip, titanium design, and Action button",
+      "price": 127400,
+      "originalPrice": 134900,
+      "savings": 7500,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/i/n/-original-imahft5ndwfkx6ez.jpeg?q=70&crop=false",
+      "colors": [
+        {
+          "id": "natural-titanium",
+          "name": "Natural Titanium",
+          "hexCode": "#d4d4d4"
+        },
+        {
+          "id": "blue-titanium",
+          "name": "Blue Titanium",
+          "hexCode": "#6b8e9e"
+        },
+        {
+          "id": "white-titanium",
+          "name": "White Titanium",
+          "hexCode": "#e8e8e8"
+        },
+        {
+          "id": "black-titanium",
+          "name": "Black Titanium",
+          "hexCode": "#2d2d2d"
+        }
+      ],
+      "storageOptions": [
+        {
+          "id": "256gb",
+          "size": "256GB",
+          "priceAdjustment": 0
+        },
+        {
+          "id": "512gb",
+          "size": "512GB",
+          "priceAdjustment": 20000
+        },
+        {
+          "id": "1tb",
+          "size": "1TB",
+          "priceAdjustment": 40000
+        }
+      ],
+      "emiPlans": [
+        {
+          "durationMonths": 3,
+          "monthlyAmount": 44967,
+          "cashback": 7500,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 6,
+          "monthlyAmount": 22483,
+          "cashback": 7500,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 12,
+          "monthlyAmount": 11242,
+          "cashback": 7500,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 24,
+          "monthlyAmount": 5621,
+          "cashback": 7500,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 36,
+          "monthlyAmount": 4297,
+          "cashback": 7500,
+          "interestRate": 10.5
+        },
+        {
+          "durationMonths": 48,
+          "monthlyAmount": 3385,
+          "cashback": 7500,
+          "interestRate": 10.5
+        },
+        {
+          "durationMonths": 60,
+          "monthlyAmount": 2842,
+          "cashback": 7500,
+          "interestRate": 10.5
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "name": "Samsung Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "tag": "NEW",
+      "description": "Ultimate performance with 200MP camera, S Pen, and Galaxy AI",
+      "price": 119900,
+      "originalPrice": 129900,
+      "savings": 10000,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/y/s/g/-original-imahgfmy2zgqvjmy.jpeg?q=70&crop=false",
+      "colors": [
+        {
+          "id": "titanium-gray",
+          "name": "Titanium Gray",
+          "hexCode": "#6b6b6b"
+        },
+        {
+          "id": "titanium-black",
+          "name": "Titanium Black",
+          "hexCode": "#1a1a1a"
+        },
+        {
+          "id": "titanium-violet",
+          "name": "Titanium Violet",
+          "hexCode": "#8b7ba8"
+        },
+        {
+          "id": "titanium-yellow",
+          "name": "Titanium Yellow",
+          "hexCode": "#f4d03f"
+        }
+      ],
+      "storageOptions": [
+        {
+          "id": "256gb",
+          "size": "256GB",
+          "priceAdjustment": 0
+        },
+        {
+          "id": "512gb",
+          "size": "512GB",
+          "priceAdjustment": 10000
+        },
+        {
+          "id": "1tb",
+          "size": "1TB",
+          "priceAdjustment": 30000
+        }
+      ],
+      "emiPlans": [
+        {
+          "durationMonths": 3,
+          "monthlyAmount": 39967,
+          "cashback": 5000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 6,
+          "monthlyAmount": 19983,
+          "cashback": 5000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 12,
+          "monthlyAmount": 9992,
+          "cashback": 5000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 24,
+          "monthlyAmount": 4996,
+          "cashback": 5000,
+          "interestRate": 0
+        },
+        {
+          "durationMonths": 36,
+          "monthlyAmount": 3820,
+          "cashback": 5000,
+          "interestRate": 10.5
+        },
+        {
+          "durationMonths": 48,
+          "monthlyAmount": 3011,
+          "cashback": 5000,
+          "interestRate": 10.5
+        },
+        {
+          "durationMonths": 60,
+          "monthlyAmount": 2525,
+          "cashback": 5000,
+          "interestRate": 10.5
+        }
+      ]
+    }
+  ]
+}
