@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -16,48 +16,48 @@ model User {
 }
 
 model Product {
-  id            String          @id
-  name          String
-  brand         String
-  tag           String?
-  description   String
-  price         Int
-  originalPrice Int
-  savings       Int
-  image         String
-  colors        Color[]
+  id             String          @id
+  name           String
+  brand          String
+  tag            String?
+  description    String
+  price          Int
+  originalPrice  Int
+  savings        Int
+  image          String
+  colors         Color[]
   storageOptions StorageOption[]
-  emiPlans      EmiPlan[]
-  createdAt     DateTime        @default(now())
-  updatedAt     DateTime        @updatedAt
+  emiPlans       EmiPlan[]
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
 }
 
 model Color {
-  id        String   @id
+  id        String  @id
   name      String
   hexCode   String
   productId String
-  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
-  
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
   @@unique([productId, id])
 }
 
 model StorageOption {
-  id              String   @id
+  id              String  @id
   size            String
   priceAdjustment Int
   productId       String
-  product         Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
-  
+  product         Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
   @@unique([productId, id])
 }
 
 model EmiPlan {
-  id              String   @id @default(cuid())
-  durationMonths  Int
-  monthlyAmount   Int
-  cashback        Int
-  interestRate    Float
-  productId       String
-  product         Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  id             String  @id @default(cuid())
+  durationMonths Int
+  monthlyAmount  Int
+  cashback       Int
+  interestRate   Float
+  productId      String
+  product        Product @relation(fields: [productId], references: [id], onDelete: Cascade)
 }
